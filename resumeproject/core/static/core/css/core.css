@@ -1,0 +1,26 @@
+/* Font */
+.satisfy-regular{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  html,body{
+    height: 100%;
+  }
+  .container-fluid{
+    min-height: 100%;
+  }
+  .bd-left{
+    border: 1px;
+  }
+  
+/* Services Icon Color */
+.i-color{
+    color: chartreuse;
+}
+
+/* Services Subtitle color */
+.ss-color{
+    color: whitesmoke;
+}
+  

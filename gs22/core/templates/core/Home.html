@@ -1,0 +1,6 @@
+{% extends "core/base.html" %}
+{% block title %}{{block.super}} Home{% endblock title %}
+{% block content %}
+<h1>This is my Home Page {{d}}</h1>
+{% include "core/extraelement.html" with p='PHP' %}
+{% endblock content %}

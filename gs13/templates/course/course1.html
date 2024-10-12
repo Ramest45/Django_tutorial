@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django</title>
+    <style>
+        body{
+            background-color:black;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Example of date and time formats -->
+
+    <!-- <h1>Hello {{dt}}</h1>
+    <h1>{{dt|date:'D d M Y'}}</h1>
+    <h1>{{dt|time:'H:i'}}</h1>
+    <h1>{{dt|time:'TIME_FORMAT'}}</h1> -->
+
+    <!-- Example of float formats -->
+
+    <!-- <h1>{{p1|floatformat}}</h1>
+    <h1>{{p2|floatformat}}</h1>
+    <h1>{{p3|floatformat}}</h1>
+
+    <h1>{{p1|floatformat:3}}</h1>
+    <h1>{{p2|floatformat:3}}</h1>
+    <h1>{{p3|floatformat:3}}</h1>
+
+    <h1>{{p1|floatformat:0}}</h1>
+    <h1>{{p1|floatformat:0}}</h1>
+    <h1>{{p1|floatformat:0}}</h1>
+
+    <h1>{{p1|floatformat:-3}}</h1>
+    <h1>{{p2|floatformat:-3}}</h1>
+    <h1>{{p3|floatformat:-3}}</h1> -->
+
+    <!-- Example of if condition -->
+
+    <!-- {% if nm %}
+    <h2>HELLO {{nm}}</h2>
+    {% endif %} -->
+
+    <!-- {% if nm %}
+    <h2>HELLO {{nm}}</h2>
+    {% else %}
+    <h2> Hello ji sare</h2>
+    {% endif %} -->
+
+    <!-- Example of for loop condition -->
+
+    <!-- {% for name in names %}
+      <h3>{{forloop.counter}}  {{name}}</h3>
+    {% endfor %} -->
+
+    {% for key,value in data.items %}
+    {{key}}:{{value}}<br>
+    {% for k,v in value.items %}
+    {{k}}:{{v}}<br>
+    {% endfor %}
+    {% endfor %}
+</body>
+</html>

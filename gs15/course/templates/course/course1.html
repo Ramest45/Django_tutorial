@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <h1> Hello {{nm}} learners </h1>
+    <img src="{% static 'images/cover1.jpg' %}" alt="error">
+    <img src="{% get_static_prefix %}images/cover2.jpg" alt="error">
+    <form action="">
+        <input type="button" value="Click me" onclick="alrt()">
+    </form>
+    <script src="{% static 'Javascript/action.js' %}"></script>
+</body>
+</html>
